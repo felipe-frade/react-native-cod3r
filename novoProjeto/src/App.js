@@ -1,6 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 
-export default () => {
-    return <Text>Primeiro componente</Text>
-}
+import Priemiro from './components/Primeiro';
+
+export default () => (
+    <View>
+        <Text>{ ']júlia te amo' }</Text>
+        <Priemiro></Priemiro>
+    </View> 
+)
