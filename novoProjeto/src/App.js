@@ -13,7 +13,21 @@ import { Text, View, SafeAreaView, StyleSheet } from 'react-native';
 // import ContadorDisplay from './components/contador/ContadorDisplay';
 // import Contador2 from './components/contador/Contador2';
 import Diferenciar from './components/Diferenciar';
-import ParImpar from './components/ParImpar';
+// import FlexBox from './components/layout/FlexBox';
+// import FlexBox from './components/layout/FlexBoxV2';
+// import FlexBox from './components/layout/FlexBoxV3';
+// import FlexBox from './components/layout/FlexBoxV4';
+// import DigiteSeuNome from './components/DigiteSeuNome';
+
+// import ListaProdutos from './components/produtos/ListaProdutos';
+// import ListaProdutos from './components/produtos/ListaProdutosV2';
+// import ParImpar from './components/ParImpar';
+
+// import Familia from './components/relacao/Familia';
+// import Membro from './components/relacao/Membro';
+// import UsuarioLogado from './components/UsuarioLogado';
+import Mega from './components/mega/Mega';
+
 
 export default () => (
     <SafeAreaView style={ style.App }>
@@ -26,7 +40,23 @@ export default () => (
         {/* <Aleatorio min={1} max={5} /> */}
         {/* <Pai></Pai> */}
         {/* <Contador2></Contador2> */}
-        <ParImpar num={2}></ParImpar>
+        {/* <ParImpar num={2}></ParImpar> */}
+        {/* <Familia>
+            <Membro nome="teste" sobrenome="da silva"></Membro>
+            <Membro nome="maria" sobrenome="da silva"></Membro>
+        </Familia>
+        <Familia>
+            <Membro nome="jose" sobrenome="pereira"></Membro>
+            <Membro nome="joao" sobrenome="pereira"></Membro>
+        </Familia> */}
+        {/* <UsuarioLogado usuario={ { nome: 'felipe', email: 'teste@teste.com' } } />
+        <UsuarioLogado usuario={ { nome: 'felipe' } } /> */}
+        {/* <ListaProdutos /> */}
+        {/* <DigiteSeuNome/> */}
+        {/* <FlexBox/> */}
+
+        <Mega num={3} />
+
         <Diferenciar></Diferenciar>
     </SafeAreaView> 
 )
